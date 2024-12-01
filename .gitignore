@@ -1,0 +1,67 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+.idea
+__pycache__/
+
+# Python specific files
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+*.gz
+*.zip
+*.tar
+*.rar
+*.csv
+*.out
+*.in
+*.backup
+*.old
+*.bak
+*.swp
+*.swo
+.idea/
+.venv/
+env/
+ENV/
+venv/
+venv.bak/
+Pipfile
+Pipfile.lock
+poetry.lock
+.coverage
+*.cover
+.hypothesis/
+.tox/
+pytest_cache/
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Virtual environments
+*.venv/
+.env
+.env.*
