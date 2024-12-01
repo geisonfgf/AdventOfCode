@@ -18,7 +18,9 @@ def calculate_total_distance(left_list, right_list):
     right_list.sort()
 
     # Calculate the total distance between paired elements
-    total_distance = sum(abs(l - r) for l, r in zip(left_list, right_list))
+    total_distance = sum(
+        abs(left - right) for left, right in zip(left_list, right_list)
+    )
 
     return total_distance
 
